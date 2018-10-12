@@ -22,11 +22,11 @@ print $ijo."
 | |     / _ \ | |_) | ||  \| | |  _
 | |___ / ___ \|  __/| || |\  | |_| |
  \____/_/   \_\_|  |___|_| \_|\____|".$t;
- echo $putih."coded by : shadow bot | "."kode invite:i4zmej".$t.$t;
+ echo $putih."Coded By : Shadow Bot | "."Kode Invite : i4zmej".$t.$t;
 
 include(readline($turkis."masukan config : "));
 //echo"$turkis bot start $putih \n";
-print "NEW BOT CAPING……………………".$t.$kuning."[>] ".$putih."sedang login eaa...".$t;
+print "NEW BOT CAPING...".$t.$kuning."[>] ".$putih."sedang login eaa...".$t;
 sleep(2);
 
 // login
@@ -68,7 +68,7 @@ flush();
 $news		=	news($uid,$n);
 $news1 = json_decode($news,true);
 if ($news1['message'] == 'OK') {
-	    echo $ijo."    ==> SUKSESS";
+	    echo $ijo."    ==> BERHASIL";
 	    }
 	    else
 	    {
@@ -86,7 +86,7 @@ flush();
 $video		=	video($uid,$n);
 $video1 = json_decode($video,true);
 if ($video1['message'] == 'OK') {
-	    echo $ijo."    ==> SUKSESS ";
+	    echo $ijo."    ==> BERHASIL ";
 	    }
 	    else
 	    {
@@ -104,7 +104,7 @@ flush();
 $share		=	share($uid,$n);
 $share1 = json_decode($share,true);
 	if ($share1['message'] == 'OK') {
-	    echo $ijo."    ==> SUKSESS ";
+	    echo $ijo."    ==> BERHASIL ";
 	    }
 	    else
 	    {
@@ -123,7 +123,7 @@ flush();
 $code		=	code($uid,$n);
 $code1 = json_decode($code,true);
 if ($code1['message'] == 'OK') {
-	    echo $ijo."    ==> SUKSESS ";
+	    echo $ijo."    ==> BERHASIL ";
 	    }
 	    else
 	    {
@@ -142,7 +142,7 @@ flush();
 $klik		=	klik($uid,$n);
 $klik1 = json_decode($klik,true);
 	if ($klik1['message'] == 'OK') {
-	    echo $ijo."    ==> SUKSESS ";
+	    echo $ijo."    ==> BERHASIL ";
 	    }
 	    else
 	    {
