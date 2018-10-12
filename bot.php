@@ -1,6 +1,7 @@
 <?php
-# di buat oleh adidoank
-# bandung 25 september 2018
+# author : shadow bot
+# 12 Oktober 2018
+# Youtube : SHADOW BOT CHANNEL
 
 @system("clear");
 @system("clear");
@@ -21,11 +22,11 @@ print $ijo."
 | |     / _ \ | |_) | ||  \| | |  _
 | |___ / ___ \|  __/| || |\  | |_| |
  \____/_/   \_\_|  |___|_| \_|\____|".$t;
- echo $putih."create by : adidoank | "."kode invite: q0ji94".$t.$t;
+ echo $putih."coded by : shadow bot | "."kode invite: q0ji94".$t.$t;
 
 include(readline($turkis."masukan config : "));
 //echo"$turkis bot start $putih \n";
-print "BOT CAPING……………………".$t.$kuning."[>] ".$putih."sedang login".$t;
+print "NEW BOT CAPING……………………".$t.$kuning."[>] ".$putih."sedang login eaa...".$t;
 sleep(2);
 
 // login
@@ -55,10 +56,10 @@ $head = array();
 		exit;
 		}
 sleep(1);
-echo $turkis."[>] ".$putih."menjalankan bot".$t;
+echo $turkis."[>] ".$putih."sedang menjalankan bot".$t;
 sleep(1);
 #######################################################
-echo $turkis."[*] ".$putih."membaca berita >20<".$t;
+echo $turkis."[*] ".$putih."baca berita >20<".$t;
 sleep(1);
 $x = 0;
 while($x<20):
@@ -67,11 +68,11 @@ flush();
 $news		=	news($uid,$n);
 $news1 = json_decode($news,true);
 if ($news1['message'] == 'OK') {
-	    echo $ijo."    ==> sukses ";
+	    echo $ijo."    ==> SUKSESS";
 	    }
 	    else
 	    {
-	    echo $red."[!] => failed !";
+	    echo $red."[!] => GAGAL !";
 	    }
 endwhile;
 sleep(1);
@@ -85,11 +86,11 @@ flush();
 $video		=	video($uid,$n);
 $video1 = json_decode($video,true);
 if ($video1['message'] == 'OK') {
-	    echo $ijo."    ==> sukses ";
+	    echo $ijo."    ==> SUKSESS ";
 	    }
 	    else
 	    {
-	    $red."[!] => failed !";
+	    $red."[!] => GAGAL !";
 	    }
 endwhile;
 sleep(1);
@@ -103,11 +104,11 @@ flush();
 $share		=	share($uid,$n);
 $share1 = json_decode($share,true);
 	if ($share1['message'] == 'OK') {
-	    echo $ijo."    ==> sukses ";
+	    echo $ijo."    ==> SUKSESS ";
 	    }
 	    else
 	    {
-	    $red."[!] => failed !";
+	    $red."[!] => GAGAL !";
 	    }
 endwhile;
 sleep(1);
@@ -122,11 +123,11 @@ flush();
 $code		=	code($uid,$n);
 $code1 = json_decode($code,true);
 if ($code1['message'] == 'OK') {
-	    echo $ijo."    ==> sukses ";
+	    echo $ijo."    ==> SUKSESS ";
 	    }
 	    else
 	    {
-	    $red."[!] => failed !";
+	    $red."[!] => GAGAL !";
 	    }
 endwhile;
 sleep(1);
@@ -141,11 +142,11 @@ flush();
 $klik		=	klik($uid,$n);
 $klik1 = json_decode($klik,true);
 	if ($klik1['message'] == 'OK') {
-	    echo $ijo."    ==> sukses ";
+	    echo $ijo."    ==> SUKSESS ";
 	    }
 	    else
 	    {
-	    $red."[!] => failed !";
+	    $red."[!] => GAGAL !";
 	    }
 endwhile;
 sleep(1);
