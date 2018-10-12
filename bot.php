@@ -22,7 +22,7 @@ print $ijo."
 | |     / _ \ | |_) | ||  \| | |  _
 | |___ / ___ \|  __/| || |\  | |_| |
  \____/_/   \_\_|  |___|_| \_|\____|".$t;
- echo $putih."coded by : shadow bot | "."kode invite: q0ji94".$t.$t;
+ echo $putih."coded by : shadow bot | "."kode invite:i4zmej".$t.$t;
 
 include(readline($turkis."masukan config : "));
 //echo"$turkis bot start $putih \n";
