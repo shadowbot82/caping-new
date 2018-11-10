@@ -154,7 +154,21 @@ sleep(1);
 sleep(1);
 echo $t.$turkis."[*] ".$putih."membuka bonus >1<". $t;
 sleep(1)
-	
+	$b=0;
+while ($b < 5):
+$b++;
+flush();
+$bonus		=	($uid,$n);
+$bonus1 = json_decode($bonus,true);
+	if ($bonus1['message'] == 'OK') {
+	    echo $ijo."    ==> BERHASIL ";
+	    }
+	    else
+	    {
+	    $red."[!] => GAGAL !";
+	    }
+endwhile;
+sleep(1);
 	
 //result
 $ch = curl_init();
